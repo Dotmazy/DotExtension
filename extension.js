@@ -1,7 +1,7 @@
 // We use class syntax to define our extension object
 // This isn't actually necessary, but it tends to look the best
 
-class DotExtension {
+class MyExtension {
     /**
      * Scratch will call this method *once* when the extension loads.
      * This method's job is to tell Scratch things like the extension's ID, name, and what blocks it supports.
@@ -44,4 +44,4 @@ class DotExtension {
   
   // Call Scratch.extensions.register to register your extension
   // Make sure to register each extension exactly once
-  Scratch.extensions.register(new DotExtension());
+  Scratch.extensions.register(new MyExtension());
